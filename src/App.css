@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -13,19 +13,40 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 640px;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  max-width: 640px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.root {
+  background: white;
+  min-width: 275;
+}
+
+.media {
+  height: 200px;
+  padding-top: '56.25%';
 }
 
 @keyframes App-logo-spin {
