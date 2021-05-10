@@ -1,0 +1,10 @@
+.root {
+    background: white;
+    min-width: 275;
+    margin-bottom: 12px;
+  }
+  
+  .media {
+    height: 200px;
+    padding-top: '56.25%';
+  }
