@@ -10,7 +10,7 @@ function NewsFeed() {
       if(resp.data.status==="ok") {
         console.log(JSON.stringify(resp.data.articles));
         setArticles(resp.data.articles);
-      } else if (resp.data.status==="ok"){
+      } else if (resp.data.status==="error"){
         console.log(resp.data.message);
       } else {
         console.log('API call failed');
